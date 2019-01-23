@@ -1,0 +1,34 @@
+{% assign projects = site.data.data.projects %}
+{% if projects %}
+<section>
+    <h1>{{ projects.title }}</h1>
+    <div class="thirteen columns">
+        {% if projects.intro %}
+          <div class="intro">
+              <p>{{ projects.intro }}</p>
+          </div><!--//intro-->
+        {% endif %}
+
+        {% for project in projects.assignments %}
+        <article>
+            <header>
+                <h1>{{ project.title }}</h1>
+                <span>
+                    <address>
+                        <a href="{{ project.link }}"><i class="fab fa-github"></i> Github</a> 
+                        {% if project.playlink %}
+                            / <a href="https://play.google.com/store/apps/details?id=nitp.navi.kawach_final"><i class="fab fa-google-play"></i> Playstore</a>
+                        {% endif %}
+                    </address>
+                </span>
+            </header>
+
+            {% if project.tagline %}
+            <p>{{ project.tagline | markdownify }}</p>
+            {% endif %}
+        
+        </article>
+        {% endfor %}
+    </div>
+</section>
+{% endif %}

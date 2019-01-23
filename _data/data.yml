@@ -1,0 +1,108 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    # Profile information
+    name: Mayank Kumar
+    tagline: <img src="https://img.icons8.com/color/30/000000/python.png" alt="Python"> and <img src="https://img.icons8.com/color/30/000000/android-os.png" alt="Android"> developer
+    avatar: profile.png  #place a 100x100 picture inside /assets/img/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: themayankverma@gmail.com
+    email_full: mailto:themayankverma@gmail.com
+    website: mayank-kr-verma.github.io
+    website_full: https://mayank-kr-verma.github.io
+    github: mayank-kr-verma
+    linkedin: mayank-kr-verma
+    twitter: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+profile:
+    title: Career Profile
+    summary: |
+      - IT UnderGrad student
+      - Love to tinker with <i class="fab fa-python"></i> and <i class="fab fa-android"></i>
+
+education:
+    title: Education
+    qualification:
+    - degree: B.Tech (Information Technology)
+      university: National Institute of Technology
+      address: Patna, India
+      time: 2016 - 2020
+
+    # - degree: BSc in Applied Mathematics
+    #   university: Bristol University
+    #   address: Glasgow, Uk
+    #   time: 2007 - 2011
+    #   details: |
+    #     Describe your study here lorem ipsum dolor sit amet, consectetuer
+    #     adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+    #     sociis natoque penatibus et magnis dis parturient montes, nascetur
+    #     ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+    #     pretium quis, sem.
+
+    #       - Bullet point
+    #       - Bullet point
+
+experiences:
+    title: Experience
+
+    posts:
+      - role: Android Developer
+        time: Dec/2018 - Jan/2019
+        company: EazyPG
+        details: |
+          Working with a StartUp is always a challenging yet learning experience. 
+          I worked as a Backend Android Developer Intern and primarily worked with Firebase.
+
+      # - role: Senior Software Engineer
+      #   time: 2014 - 2015
+      #   company: Google, London
+      #   details: |
+      #     Describe your role here lorem ipsum dolor sit amet, consectetuer
+      #     adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+      #     Cum sociis natoque penatibus et magnis dis parturient montes,
+      #     nascetur ridiculus mus. Donec quam felis, ultricies nec,
+      #     pellentesque eu, pretium quis, sem.
+
+      #       - Bullet point
+      #       - Bullet point
+
+projects:
+    title: Projects
+    intro: >
+      I love working on small projects in free time. Most of those are hosted on GitHub.
+
+    assignments:
+      - title: Kawach
+        link: "https://github.com/mayank-kr-verma/kawach_final"
+        playlink: "https://play.google.com/store/apps/details?id=nitp.navi.kawach_final"
+        tagline: "Android App built for OpenGovDataHack Nationals 2017. Secured 7th Rank"
+
+      - title: Personal Website & Blog
+        link: "https://mayank-kr-verma.github.io"
+        tagline: "Responsive personal website built with Jekyll."
+
+      # - title: Tempo
+      #   link: "#"
+      #   playlink: "#"
+      #   tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Android  <i class="fab fa-android"></i>
+        level: 80 #in multiples of 10 only
+
+      - name: Firebase  <i class="fas fa-database"></i>
+        level: 80
+
+      - name: Python  <i class="fab fa-python"></i>
+        level: 70
+
+      - name: PHP  <i class="fab fa-php"></i>
+        level: 50

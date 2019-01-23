@@ -1,19 +1,16 @@
-<section class="thirteen columns">
-    <h1>Programming Skills</h1>
+{% assign skills = site.data.data.skills %}
+<section>
+    <h1>{{ skills.title }}</h1>
     <article>
-        <header>
-            <h1>Software engineering & web development</h1>
-        </header>
-        <p>
-            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
-            &nbsp;&nbsp;<em>C/C++ & Objective-C</em>
-        <p>
-            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i>
-            &nbsp;&nbsp;<em>Java</em>, <em>Python</em>, <em>PHP</em> &amp; <em>Git</em>
-        </p>
-        <p>
-            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o"></i>
-            &nbsp;&nbsp;<em>HTML/CSS3</em> &amp; <em>Javascript</em>
-        </p>
+        {% for skill in skills.toolset %}
+          <div class="thirteen columns progressBar">
+            <div class="two columns">
+                <h4>{{ skill.name }}</h4>
+            </div>
+            <div class="eleven columns progressBarContainer">
+              <div class="progressBarValue value-{{ skill.level }}"></div>
+            </div>
+          </div>
+        {% endfor %}
     </article>
 </section>

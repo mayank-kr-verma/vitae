@@ -1,0 +1,9 @@
+{% assign profile = site.data.data.profile %}
+<section>
+  <h1>{{ profile.title }}</h1>
+  <div class="thirteen columns">
+    <article>
+        <p>{{ profile.summary | markdownify }}</p>
+    </article>
+  </div><!--//summary-->
+</section><!--//section-->

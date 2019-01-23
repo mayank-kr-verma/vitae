@@ -1,0 +1,24 @@
+{% assign experiences = site.data.data.experiences %}
+{% if experiences %}
+<section>
+    <h1>{{ experiences.title }}</h1>
+    <div class="thirteen columns">
+        {% for experience in experiences.posts %}
+        <article>
+            <header>
+                <h1>{{ experience.role }}</h1>
+                <span>
+                    <address>{{ experience.company }}</address>
+                    <time>{{ experience.time }}</time>
+                </span>
+            </header>
+
+            {% if experience.details %}
+            <p>{{ experience.details | markdownify }}</p>
+            {% endif %}
+        
+        </article>
+        {% endfor %}
+    </div>
+</section>
+{% endif %}
