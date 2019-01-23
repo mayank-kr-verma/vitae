@@ -83,8 +83,12 @@ projects:
 
       - title: Personal Website & Blog
         link: "https://mayank-kr-verma.github.io"
-        tagline: "Responsive personal website built with Jekyll."
+        tagline: "Responsive personal website built with Jekyll"
 
+      - title: BrainPy
+        link: "https://github.com/mayank-kr-verma/brainpy"
+        tagline: "A brainfuck interpreter implemented in python3.7"
+        
       # - title: Tempo
       #   link: "#"
       #   playlink: "#"
