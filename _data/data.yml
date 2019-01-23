@@ -6,7 +6,7 @@ sidebar:
     # Profile information
     name: Mayank Kumar
     tagline: <img src="https://img.icons8.com/color/30/000000/python.png" alt="Python"> and <img src="https://img.icons8.com/color/30/000000/android-os.png" alt="Android"> developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/img/ folder and provide the name of the file below
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/img/ folder and provide the name of the file below
 
     # Sidebar links
     email: themayankverma@gmail.com
@@ -88,7 +88,7 @@ projects:
       - title: BrainPy
         link: "https://github.com/mayank-kr-verma/brainpy"
         tagline: "A brainfuck interpreter implemented in python3.7"
-        
+
       # - title: Tempo
       #   link: "#"
       #   playlink: "#"
@@ -108,5 +108,5 @@ skills:
       - name: Python  <i class="fab fa-python"></i>
         level: 70
 
-      - name: PHP  <i class="fab fa-php"></i>
-        level: 50
+      - name: HTML &amp; CSS  <i class="fab fa-php"></i>
+        level: 60
