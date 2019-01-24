@@ -15,9 +15,14 @@
                 <h1>{{ project.title }}</h1>
                 <span>
                     <address>
-                        <a href="{{ project.link }}"><i class="fab fa-github"></i> Github</a> 
+                        {% if project.gitlink %}
+                            <a href="{{ project.gitlink }}"><i class="fab fa-github"></i> Github</a>
+                        {% endif %} 
+                        {% if project.link %}
+                            / <a href="{{ project.link }}"><i class="fas fa-globe-asia"></i> Link</a>
+                        {% endif %}
                         {% if project.playlink %}
-                            / <a href="https://play.google.com/store/apps/details?id=nitp.navi.kawach_final"><i class="fab fa-google-play"></i> Playstore</a>
+                            / <a href="{{ project.playlink }}"><i class="fab fa-google-play"></i> Playstore</a>
                         {% endif %}
                     </address>
                 </span>
