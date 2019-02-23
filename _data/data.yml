@@ -86,9 +86,9 @@ projects:
         gitlink: "https://github.com/mayank-kr-verma/mayank-kr-verma.github.io"
         tagline: "Responsive personal website built with Jekyll"
 
-      - title: BrainPy
-        gitlink: "https://github.com/mayank-kr-verma/brainpy"
-        tagline: "A brainfuck interpreter implemented in python3.7"
+      - title: Chat Bot App
+        gitlink: "https://github.com/mayank-kr-verma/EazyPGminiTask"
+        tagline: "Android App completed as a mini task to apply for internship. Includes Chat Bot prototype to automate client interactions. Uses Google DialogFlow API."
 
       # - title: Tempo
       #   link: "#"
