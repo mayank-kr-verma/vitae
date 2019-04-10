@@ -97,8 +97,12 @@ projects:
 
       - title: Chat Bot App
         gitlink: "https://github.com/mayank-kr-verma/EazyPGminiTask"
-        tagline: "Android App completed as a mini task to apply for internship. Includes Chat Bot prototype to automate client interactions. Uses Google DialogFlow API."
+        tagline: "Android App that includes Chat Bot prototype to automate client interactions. Uses Google DialogFlow API."
 
+      - title: ImageInfo
+        gitlink: "https://github.com/mayank-kr-verma/imgInfo"
+        tagline: "Simple API developed with Python and Flask. Takes any image file as input and returns JSON object containing image metadata."
+        
       # - title: Tempo
       #   link: "#"
       #   gitlink: "#"
