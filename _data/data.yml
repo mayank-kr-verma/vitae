@@ -22,7 +22,7 @@ profile:
     title: Career Profile
     summary: |
       - IT UnderGrad student
-      - Love to tinker with <i class="fab fa-python"></i> and <i class="fab fa-android"></i>
+      - Arch Linux Enthusiast
 
 education:
     title: Education
@@ -31,7 +31,16 @@ education:
       university: National Institute of Technology
       address: Patna, India
       time: 2016 - 2020
+      
+    - degree: XII
+      university: Gyan Deep Public School, Shikohabad
+      address: Agra, Uttar Pradesh, India
+      time: 2015
 
+    - degree: X
+      university: Gyan Deep Public School, Shikohabad
+      address: Agra, Uttar Pradesh, India
+      time: 2013
     # - degree: BSc in Applied Mathematics
     #   university: Bristol University
     #   address: Glasgow, Uk
@@ -87,10 +96,14 @@ projects:
         gitlink: "https://github.com/mayank-kr-verma/mayank-kr-verma.github.io"
         tagline: "Responsive personal website built with Jekyll"
 
-      - title: BrainPy
-        gitlink: "https://github.com/mayank-kr-verma/brainpy"
-        tagline: "A brainfuck interpreter implemented in python3.7"
+      - title: Chat Bot App
+        gitlink: "https://github.com/mayank-kr-verma/EazyPGminiTask"
+        tagline: "Android App that includes Chat Bot prototype to automate client interactions. Uses Google DialogFlow API."
 
+      - title: ImageInfo
+        gitlink: "https://github.com/mayank-kr-verma/imgInfo"
+        tagline: "Simple API developed with Python and Flask. Takes any image file as input and returns JSON object containing image metadata."
+        
       # - title: Tempo
       #   link: "#"
       #   gitlink: "#"
